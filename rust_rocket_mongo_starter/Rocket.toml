@@ -1,0 +1,2 @@
+[global.databases]
+users = { url = "mongodb://localhost:27017/users" }

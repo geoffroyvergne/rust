@@ -1,0 +1,15 @@
+name: Command line arguments application
+version: "0.1.0"
+author: "John Doe <john.doe@email.com"
+about: "Does awesome things"
+args:
+    - file:
+        short: f
+        long: file
+        takes_value: true
+        help: "A cool file"
+    - num:
+        short: n
+        long: number
+        takes_value: true
+        help: "Five less your favorite number"

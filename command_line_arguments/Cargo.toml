@@ -1,0 +1,9 @@
+[package]
+name = "command_line_arguments"
+version = "0.1.0"
+authors = ["gv"]
+edition = "2018"
+
+[dependencies]
+#clap = "2"
+clap = {version = "2.33", features = ["yaml"]}
